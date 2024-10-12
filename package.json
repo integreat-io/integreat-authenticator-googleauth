@@ -14,7 +14,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node --import tsx --test --enable-source-maps --experimental-test-coverage --test-reporter node-test-reporter 'src/**/*.test.ts'",
+    "test": "node --import tsx --test --enable-source-maps --experimental-test-coverage --test-reporter node-test-reporter src/*.test.ts",
     "test:inspect": "node --inspect node_modules/ava/profile.js",
     "test:watch": "npm run dev",
     "dev": "node --import tsx --test --enable-source-maps --test-reporter node-test-reporter --watch 'src/**/*.test.ts' || exit 0",
