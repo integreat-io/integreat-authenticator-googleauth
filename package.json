@@ -1,0 +1,36 @@
+{
+  "name": "integreat-authenticator-googleauth",
+  "version": "1.0.0",
+  "description": "Google Auth authenticator for Integreat",
+  "author": "Kjell-Morten Bratsberg Thorsen <kjellmorten@integreat.io>",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --import tsx --test --enable-source-maps --experimental-test-coverage --test-reporter node-test-reporter 'src/**/*.test.ts'",
+    "test:inspect": "node --inspect node_modules/ava/profile.js",
+    "test:watch": "npm run dev",
+    "dev": "node --import tsx --test --enable-source-maps --test-reporter node-test-reporter --watch 'src/**/*.test.ts' || exit 0",
+    "build": "tsc",
+    "lint": "eslint --ext .ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/integreat/integreat-authenticator-googleauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/integreat/integreat-authenticator-googleauth/issues"
+  },
+  "homepage": "https://github.com/integreat/integreat-authenticator-googleauth#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@integreat/ts-dev-setup": "^7.1.1"
+  }
+}
