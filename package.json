@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/integreat/integreat-authenticator-googleauth.git"
+    "url": "git+https://github.com/integreat-io/integreat-authenticator-googleauth.git"
   },
   "bugs": {
-    "url": "https://github.com/integreat/integreat-authenticator-googleauth/issues"
+    "url": "https://github.com/integreat-io/integreat-authenticator-googleauth/issues"
   },
-  "homepage": "https://github.com/integreat/integreat-authenticator-googleauth#readme",
+  "homepage": "https://github.com/integreat-io/integreat-authenticator-googleauth#readme",
   "dependencies": {
     "google-auth-library": "^9.14.2"
   },
