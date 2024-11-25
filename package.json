@@ -34,7 +34,7 @@
     "google-auth-library": "^9.14.2"
   },
   "devDependencies": {
-    "@integreat/ts-dev-setup": "^7.1.1",
+    "@integreat/ts-dev-setup": "^8.0.0",
     "@types/node": "^22.8.3",
     "@types/sinon": "^17.0.3",
     "integreat": "^1.5.10",
