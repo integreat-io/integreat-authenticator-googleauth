@@ -19,6 +19,18 @@ Install from npm:
 npm install integreat-authenticator-googleauth
 ```
 
+The authenticator supports the following options:
+
+- `type`: `'accessToken'` is the default and returns a Google access token. Set
+  to `'idToken'` to return a Google ID token (JWT).
+- `aud`: The audience for the ID token. When not set, the `url` will be used
+  as audience. Not relevant for access token.
+- `url`: The url to call when fetching the ID token. No default. Not relevant
+  for access token.
+- `scopes`: A scope string or an array of scope strings. Default is
+  `'https://www.googleapis.com/auth/cloud-platform'`. If you need to have no
+  scopes for some reason, set it to an empty array.
+
 ### Running the tests
 
 The tests can be run with `npm test`.
