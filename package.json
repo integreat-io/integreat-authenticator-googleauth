@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/integreat-io/integreat-authenticator-googleauth#readme",
   "dependencies": {
-    "google-auth-library": "^9.14.2"
+    "google-auth-library": "^9.15.1"
   },
   "devDependencies": {
-    "@integreat/ts-dev-setup": "^7.1.1",
-    "@types/node": "^22.8.3",
-    "@types/sinon": "^17.0.3",
-    "integreat": "^1.5.10",
-    "sinon": "^19.0.2"
+    "@integreat/ts-dev-setup": "^8.2.0",
+    "@types/node": "^22.18.0",
+    "@types/sinon": "^17.0.4",
+    "integreat": "^1.6.4",
+    "sinon": "^21.0.0"
   }
 }

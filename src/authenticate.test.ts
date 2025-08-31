@@ -27,8 +27,8 @@ test('should call google auth and return an authentication object that expires w
   assert.equal(ret.status, 'granted')
   assert.equal(ret.token, 't0k3n')
   assert.equal(typeof ret.expire, 'number')
-  assert(ret.expire! >= before)
-  assert(ret.expire! <= after)
+  assert((ret.expire as number) >= before)
+  assert((ret.expire as number) <= after)
   assert.equal((getAccessTokenMock as sinon.SinonSpy | undefined)?.callCount, 1)
 })
 
