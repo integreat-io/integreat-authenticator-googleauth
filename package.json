@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@integreat/ts-dev-setup": "^8.2.0",
-    "@types/node": "^22.18.0",
+    "@types/node": "^24.3.0",
     "@types/sinon": "^17.0.4",
     "integreat": "^1.6.4",
     "sinon": "^21.0.0"
